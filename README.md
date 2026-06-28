@@ -20,6 +20,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Gemini API Key
+
+InsightLens does **not** ship with a bundled Gemini API key.
+
+On first launch:
+
+1. Open **Settings**.
+2. Paste your Google Gemini API key.
+3. Save it.
+4. Start analyzing documents.
+
+The key is stored locally in your browser and is never uploaded to any server.
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
