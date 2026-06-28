@@ -135,7 +135,7 @@ Features include
 
 Generate a complete evidence-backed decision brief containing
 
-- Executive Summary
+- Analysis Summary
 - Key Findings
 - Major Themes
 - Supporting Evidence
@@ -177,8 +177,6 @@ The application explains
 ## 🎨 Clean Modern UI
 
 - Responsive layout
-- Dark Mode
-- Light Mode
 - Progressive loading
 - Research workflow
 - Sidebar navigation
@@ -280,7 +278,6 @@ package.json
 - Missing evidence detection
 - Alternative recommendations
 - Risk identification
-- Light & Dark Mode
 
 ---
 
@@ -292,7 +289,6 @@ Current MVP limitations include
 - No authentication
 - Local-first prototype
 - Long documents may be shortened before analysis to remain within model limits
-- Internet URLs are not yet analyzed directly
 
 ---
 
@@ -300,7 +296,6 @@ Current MVP limitations include
 
 - Multi-document citations
 - Research chat
-- PDF export
 - PowerPoint export
 - Research comparison mode
 - Collaborative workspaces
