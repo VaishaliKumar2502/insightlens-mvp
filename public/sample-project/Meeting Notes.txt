@@ -1,0 +1,26 @@
+Project Kickoff Meeting
+Date: 15 June 2026
+
+Attendees:
+- Sarah Johnson
+- David Lee
+- Michael Brown
+
+Agenda
+1. Discuss AI-powered document analysis workflow.
+2. Review customer requirements.
+3. Finalize MVP scope.
+
+Decisions
+- Support PDF, DOCX, TXT and URL uploads.
+- Enable multi-document analysis.
+- Display uploaded document previews.
+- Generate AI summaries and recommendations.
+
+Action Items
+- Backend team to implement document parsing.
+- Frontend team to build document preview panel.
+- QA team to prepare test scenarios.
+
+Next Meeting
+22 June 2026
