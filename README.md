@@ -1,337 +1,283 @@
-# InsightLens 🔎
+# 🔎 InsightLens
 
-> **Evidence-backed Research Decision Copilot**
->
-> Transform scattered research into confident, evidence-backed decisions using AI.
+# AI-powered Decision Intelligence Copilot
+
+> **Transform scattered research into confident, evidence-backed decisions.**
+
+InsightLens helps professionals move beyond document summarization by transforming multiple research sources into transparent, explainable, and actionable decision briefs.
 
 ---
 
-# Live Demo
-
-Try InsightLens instantly without installing anything.
+# 🌐 Live Demo
 
 **Application**
 
 https://insightlens-mvp.vercel.app/
 
-# Quick Start
+---
 
-No installation is required.
+# 🚀 Problem Statement
 
-### Step 1
+## **We don't have an information problem anymore. We have a decision problem.**
 
-Open the deployed application.
+Every important decision—whether choosing a business strategy, approving an insurance claim, selecting a vendor, reviewing a contract, evaluating an investment, or defining product direction—is backed by information scattered across reports, contracts, meeting notes, policies, research papers, and internal documents.
 
-### Step 2
+While Generative AI can summarize documents, decision-makers are still left asking:
 
-Click **Settings** on left bottom of the screen and select **Configure API**
+* Do we have enough evidence to move forward?
+* What critical information is missing?
+* Which conclusions are backed by evidence?
+* Are different sources contradicting each other?
+* What risks remain?
+* What additional evidence could change this decision?
 
-### Step 3
+Professionals still spend hours manually validating evidence, comparing documents, identifying blind spots, and preparing decision briefs.
 
-Paste your Google Gemini API Key. 
+**InsightLens transforms scattered research into evidence-backed decisions.**
 
-It automatically validates. 
+Instead of simply summarizing documents, it:
 
-Click on **Save Configuration**.
+* 📄 Understands multiple research sources together
+* 🔍 Extracts supporting evidence
+* ⚠️ Identifies risks, contradictions, and missing information
+* 📊 Evaluates research readiness
+* 💡 Generates recommendations, alternatives, confidence, and next steps
 
-The key is stored locally inside your browser and never uploaded to any server.
+Rather than replacing human judgment, InsightLens augments it—helping professionals move from:
 
-### Step 4
+> **"I have too much information."**
 
-Upload your own research files or use the included Sample Project.
+to
 
-### Step 5
-
-Describe the decision you want help making.
-
-Example:
-
-```
-Step 1: Upload Sample Project
-Step 2: Ensure Employee Agreement.docx file is successfully uploaded and selected on the left sidepanel.
-Step 3: Click on Continue
-Step 4: Enter 'Should I sign this employment agreement?' in the What decision are you trying to make? * placeholder
-Step 5: Enter Goals, constraints, preferences, decision criterial if required. or you may kee them empty as they are optional. 
-Step 6: Scroll down and click on 'Analyze research'
-Step 7: Wait to retry if error is thrown and click again
-Step 8: InsightLens will generate
-
-- Decision Brief
-- Analysis Summary
-- Research readiness
-- What Could Change This Decision?
-- Risks, Contradictions & Alternatives
-- Recommended Next Steps
-- Key Findings
-- Major Themes
-- Supporting Evidence
-- Other Missing Evidence
-
-Step 9: Click on 'Download PDF' to export output in PDF.
-
-```
-
-## Overview
-
-InsightLens is an AI-powered decision intelligence application that helps users transform multiple research documents into structured, evidence-backed recommendations.
-
-Instead of manually reading PDFs, reports, meeting notes, contracts, and research papers, users upload their documents, describe the decision they are trying to make, and receive an AI-generated decision brief grounded in the selected evidence.
-
-The application focuses on transparency by explaining:
-
-- What the evidence supports
-- What important information is missing
-- Remaining risks
-- Alternative approaches
-- Confidence behind the recommendation
-- Next recommended actions
+> **"I know exactly what decision to make, why, and what evidence supports it."**
 
 ---
 
-## Problem Statement
+# ✨ Key Features
 
-Decision makers often need to review dozens of research documents before making an important decision.
-
-Examples include:
-
-- Business strategy
-- Vendor selection
-- Investment research
-- Insurance claims
-- Policy reviews
-- Internal audits
-- Product launches
-- Market research
-
-Reading every document manually is slow, repetitive, and increases the chance of missing important evidence.
-
-InsightLens accelerates this process by generating a structured, source-aware decision brief.
+* 📄 Multi-document upload (PDF, DOCX, TXT)
+* 🤖 AI-powered decision analysis
+* 📊 Research Readiness assessment
+* 🔍 Supporting Evidence extraction
+* ⚠️ Risk & contradiction detection
+* 💡 Evidence-backed recommendations
+* 📈 Confidence scoring
+* 📑 Export decision brief as PDF
 
 ---
 
-# Features
+# 📸 Application Preview
 
-## 📄 Multi-document Research Upload
+> Additional screenshots are available inside the **`docs/`** folder.
+>
+> <table>
 
-Upload multiple research sources including:
+<tr>
+<td align="center">
+<b>Landing Page</b><br><br>
+<img src="docs/Upload panel 1.png" width="420">
+</td>
 
-- PDF
-- DOCX
-- TXT
+<td align="center">
+<b>About InsightLens</b><br><br>
+<img src="docs/About Page2.png" width="420">
+</td>
+</tr>
 
-Features include
+<tr>
+<td align="center">
+<b>Research Workspace</b><br><br>
+<img src="docs/Research corpus ready.png" width="420">
+</td>
 
-- Drag & Drop upload
-- Upload progress
-- File validation
-- Remove files
-- Sample project
-- Research corpus management
-- Source selection before analysis
+<td align="center">
+<b>Decision Context</b><br><br>
+<img src="docs/Decision context screen 1.png" width="420">
+</td>
+</tr>
 
----
+<tr>
+<td align="center">
+<b>AI Analysis</b><br><br>
+<img src="docs/Research readiness.png" width="420">
+</td>
 
-## 🧠 AI Decision Analysis
+<td align="center">
+<b>Decision Brief</b><br><br>
+<img src="docs/Decision Brief.png" width="420">
+</td>
+</tr>
 
-Generate a complete evidence-backed decision brief containing
-
-- Analysis Summary
-- Key Findings
-- Major Themes
-- Supporting Evidence
-- Final Recommendation
-- Confidence Score
-- Risks
-- Alternatives
-- Decision-changing gaps
-- Next Steps
-
----
-
-## 🔍 Research Readiness
-
-InsightLens identifies
-
-- Missing evidence
-- Weak research areas
-- Contradictions
-- Remaining uncertainty
-- Decision risks
-
-rather than simply summarizing documents.
+</table>
 
 ---
 
-## 📚 Evidence-aware Outputs
+# ⚡ Quick Start
 
-Recommendations are generated only from the selected research sources.
+No installation required.
 
-The application explains
+### 1. Open the application
 
-- why a recommendation was made
-- which evidence supports it
-- what information is still missing
+https://insightlens-mvp.vercel.app/
 
----
+### 2. Configure Gemini
 
-## 🎨 Clean Modern UI
+Settings → **Configure API**
 
-- Responsive layout
-- Progressive loading
-- Research workflow
-- Sidebar navigation
-- Professional decision workspace
+Paste your Google Gemini API Key.
 
----
+The key is:
 
-# Architecture
+* Stored locally in your browser
+* Never uploaded to any server
+* Automatically validated before use
 
-```
-                 Documents
+### 3. Load Sample Project
 
-     PDF   DOCX   TXT
+Click **Use Sample Project**
 
-              │
+(or upload your own PDF, DOCX or TXT files)
 
-              ▼
+### 4. Example Workflow
 
-      Document Parsing
+Select **Employment Agreement.docx**
 
-              │
+Enter the following decision:
 
-              ▼
+> **Should I sign this employment agreement?**
 
-     Research Corpus Builder
+Click **Analyze Research**
 
-              │
+InsightLens generates:
 
-              ▼
+* Decision Brief
+* Analysis Summary
+* Research Readiness
+* Key Findings
+* Major Themes
+* Supporting Evidence
+* Risks & Contradictions
+* Missing Evidence
+* Recommendations
+* Next Steps
 
-      Decision Context
+Finally,
 
-              │
-
-              ▼
-
-       Gemini AI Analysis
-
-              │
-
-              ▼
-
- Structured Decision Brief
-```
+Click **Download PDF** to export the complete decision brief.
 
 ---
 
-# Technology Stack
+# 🌍 Potential Applications
 
-| Category | Technology |
-|-----------|------------|
-| Framework | Next.js App Router |
-| Language | TypeScript |
-| UI | React |
-| Styling | Tailwind CSS |
-| AI | Google Gemini API |
+InsightLens can support evidence-backed decision making across:
+
+* 💼 Consulting & Strategy
+* 🏦 Banking & Finance
+* ⚖️ Legal & Compliance
+* 🏥 Healthcare & Insurance
+* 🏢 Enterprise Operations
+* 🚀 Product & Market Research
+* 🎓 Research & Academia
+
+Any workflow that requires reviewing multiple documents before making an important decision can benefit from InsightLens.
+
+---
+
+# 🛠 Technology Stack
+
+| Category         | Technology          |
+| ---------------- | ------------------- |
+| Framework        | Next.js App Router  |
+| Language         | TypeScript          |
+| UI               | React               |
+| Styling          | Tailwind CSS        |
+| AI               | Google Gemini       |
 | Document Parsing | pdfjs-dist, mammoth |
-| Deployment | Vercel |
+| Deployment       | Vercel              |
 
 ---
 
-# Project Structure
+# 🏗 Architecture
 
+```text
+Documents
+(PDF • DOCX • TXT)
+
+        │
+        ▼
+
+Document Parsing
+
+        │
+        ▼
+
+Research Corpus
+
+        │
+        ▼
+
+Decision Context
+
+        │
+        ▼
+
+Google Gemini
+
+        │
+        ▼
+
+Evidence-backed Decision Brief
 ```
-app/
-
-components/
-    UploadPanel.tsx
-    Workspace.tsx
-    Sidebar.tsx
-    ResultsScreen.tsx
-    DecisionContext.tsx
-    SettingsModal.tsx
-
-lib/
-    documentParser.ts
-
-public/
-    sample-project/
-
-docs/
-
-package.json
-```
 
 ---
 
-# Current Capabilities
+# 🚀 Roadmap
 
-- Upload multiple research documents
-- Select research sources
-- Decision context input
-- AI-powered research analysis
-- Executive summaries
-- Recommendation generation
-- Evidence inspection
-- Major theme extraction
-- Research readiness analysis
-- Missing evidence detection
-- Alternative recommendations
-- Risk identification
+* Research Chat
+* Multi-document citations
+* PowerPoint export
+* Collaborative workspaces
+* Cloud projects
+* Research history
+* Advanced confidence scoring
 
 ---
 
-# Limitations
+# 🎯 Design Principles
 
-Current MVP limitations include
+Every recommendation generated by InsightLens follows four principles:
 
-- Requires a Gemini API key
-- No authentication
-- Local-first prototype
-- Long documents may be shortened before analysis to remain within model limits
-
----
-
-# Future Roadmap
-
-- Multi-document citations
-- Research chat
-- PowerPoint export
-- Research comparison mode
-- Collaborative workspaces
-- Persistent projects
-- User authentication
-- Cloud storage
-- Research history
-- Team sharing
-- Advanced confidence scoring
-
+* Evidence before opinion
+* Explain every recommendation
+* Highlight uncertainty
+* Help users make faster, more informed decisions
 
 ---
 
-# Design Principles
+# ⚠ Disclaimer
 
-InsightLens was designed around four core principles:
+InsightLens is designed to assist decision-making—not replace professional legal, financial, medical, or regulatory advice.
 
-- Evidence before opinion
-- Explain every recommendation
-- Highlight uncertainty
-- Help users make faster, better-informed decisions
+Users should always review the original source documents before acting on AI-generated recommendations.
 
 ---
 
-# Disclaimer
-
-InsightLens is intended to assist decision making and should not replace professional legal, financial, medical, or regulatory advice.
-
-Users should always review original source documents before acting on AI-generated recommendations.
-
----
-
-## Author
+# 👩‍💻 Author
 
 **Vaishali Kumar**
 
-Build With AI UAE Hackathon 2026
+Built for **Build With AI UAE Hackathon 2026**
 
-Powered by Google Gemini
+Powered by **Google Gemini**
+
+---
+
+## ⭐ Vision
+
+> **The future of AI is not just answering questions.**
+>
+> **It is helping people make better decisions.**
+>
+> **InsightLens doesn't just summarize research.**
+>
+> **It transforms research into decisions.**
